@@ -1,49 +1,19 @@
-#greeting-container {
+#root {
     background-color: #0c1216;
+}
+.navbar {
     color: #fff;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: #0c121670;
+    button:hover {
+        cursor: pointer;
+    }
+    .langbtns {
+        border: 1px solid #fff;
+    }
+}
+#greeting-container {
+    color: #fff;
 
-    #nav-btns {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-
-        div {
-            button {
-                border: 1px solid #fff;
-                border-radius: 8px;
-                padding: 5px 10px;
-                margin: 5px 10px;
-                background-color: #151d24;
-                transition: 0.15s ease-in-out;
-            }
-            button:hover {
-                background-color: #fff;
-                color: #000;
-            }
-        }
-    }
-
-    #name {
-        color: #3c84ff;
-    }
-    .blinking-cursor {
-        display: inline-block;
-        width: 1ch;
-        animation: blink 1s step-end infinite;
-        color: #3c84ff;
-    }
-    @keyframes blink {
-        0%, 100% {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
-    }
     .swipingWords {
         z-index: 0;
         p {
@@ -53,6 +23,28 @@
     }
     .typewriter {
         z-index: 1;
+
+        .typewriterText {
+            text-align: right;
+        }
+        #name {
+            color: #3c84ff;
+            text-align: left;
+        }
+        .blinking-cursor {
+            display: inline-block;
+            width: 1ch;
+            animation: blink 1s step-end infinite;
+            color: #3c84ff;
+        }
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
     }
 }
 
