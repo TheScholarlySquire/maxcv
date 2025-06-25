@@ -12,115 +12,115 @@
             {
                 "type": "tech",
                 "name": "HTML5",
-                "img": "../../public/HTML5_Logo.svg",
+                "img": "./HTML5_Logo.svg",
                 "alt": "HTML5 logo"
             },
             {
                 "type": "tech",
                 "name": "CSS",
-                "img": "../../public/CSS_Logo.svg",
+                "img": "./CSS_Logo.svg",
                 "alt": "CSS logo"
             },
             {
                 "type": "tech",
                 "name": "SASS",
-                "img": "../../public/SASS_Logo.svg",
+                "img": "./SASS_Logo.svg",
                 "alt": "SASS logo"
             },
             {
                 "type": "tech",
                 "name": "JavaScript",
-                "img": "../../public/JS_Logo.svg",
+                "img": "./JS_Logo.svg",
                 "alt": "JavaScript logo"
             },
             {
                 "type": "tech",
                 "name": "jQuery",
-                "img": "../../public/jQuery_Logo.svg",
+                "img": "./jQuery_Logo.svg",
                 "alt": "jQuery logo"
             },
             {
                 "type": "tech",
                 "name": "Bootstrap",
-                "img": "../../public/Bootstrap_Logo.svg",
+                "img": "./Bootstrap_Logo.svg",
                 "alt": "Bootstrap logo"
             },
             {
                 "type": "tech",
                 "name": "React",
-                "img": "../../public/react.svg",
+                "img": "./react.svg",
                 "alt": "React logo"
             },
             {
                 "type": "tech",
                 "name": "TailwindCSS",
-                "img": "../../public/TailwindCSS_Logo.svg",
+                "img": "./TailwindCSS_Logo.svg",
                 "alt": "TailwindCSS logo"
             },
             {
                 "type": "tech",
                 "name": "SQL",
-                "img": "../../public/sql.svg",
+                "img": "./sql.svg",
                 "alt": "SQL logo"
             },
             {
                 "type": "tool",
                 "name": "Git and GitHub",
-                "img": "../../public/github_Logo.svg",
+                "img": "./github_Logo.svg",
                 "alt": "GitHub logo"
             },
             {
                 "type": "tool",
                 "name": "Vite",
-                "img": "../../public/vite.svg",
+                "img": "./vite.svg",
                 "alt": "Vite logo"
             },
             {
                 "type": "tech",
                 "name": "WCAG/WET",
-                "img": "../../public/W3C_Logo.svg",
+                "img": "./W3C_Logo.svg",
                 "alt": "W3C logo"
             },
             {
                 "type": "tech",
                 "name": "PowerShell",
-                "img": "../../public/PowerShell_Logo.svg",
+                "img": "./PowerShell_Logo.svg",
                 "alt": "Powershell logo"
             },
             {
                 "type": "design",
                 "name": "Adobe XD",
-                "img": "../../public/XD_Logo.svg",
+                "img": "./XD_Logo.svg",
                 "alt": "Adobe XD logo"
             },
             {
                 "type": "design",
                 "name": "Adobe Photoshop",
-                "img": "../../public/Photoshop_Logo.svg",
+                "img": "./Photoshop_Logo.svg",
                 "alt": "Adobe Photoshop logo"
             },
             {
                 "type": "design",
                 "name": "Adobe Illustrator",
-                "img": "../../public/Illustrator_Logo.svg",
+                "img": "./Illustrator_Logo.svg",
                 "alt": "Adobe Illustrator logo"
             },
             {
                 "type": "design",
                 "name": "Adobe InDesign",
-                "img": "../../public/Indesign_Logo.svg",
+                "img": "./Indesign_Logo.svg",
                 "alt": "Adobe InDesign logo"
             },
             {
                 "type": "design",
                 "name": "Adobe Lightroom",
-                "img": "../../public/Lightroom_Logo.svg",
+                "img": "./Lightroom_Logo.svg",
                 "alt": "Adobe Lightroom logo"
             },
             {
                 "type": "design",
                 "name": "Adobe Figma",
-                "img": "../../public/Figma_Logo.svg",
+                "img": "./Figma_Logo.svg",
                 "alt": "Adobe Figma logo"
             }
     ],
