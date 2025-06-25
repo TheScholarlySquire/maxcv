@@ -45,10 +45,14 @@
         }
     }
     .swipingWords {
+        z-index: 0;
         p {
             transform: skew(-5deg, -5deg);
             text-transform: lowercase;
         }
+    }
+    .typewriter {
+        z-index: 1;
     }
 }
 

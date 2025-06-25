@@ -14,7 +14,7 @@ function App() {
     return (
         <>
             <nav>
-                <div id="greeting-container" className="text-center p-8">
+                <div id="greeting-container" className="text-center p-8 relative">
                     <SwipingWords />
                     <GreetingTypewriter />
                     <p className="mt-30">{t('description')}</p>

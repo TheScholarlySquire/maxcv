@@ -39,7 +39,7 @@ export default function GreetingTypewriter() {
     }, [displayText, isDeleting, index]);
 
     return (
-        <h1 className="text-3xl font-bold flex items-center justify-center gap-2">
+        <h1 className="typewriter text-3xl font-bold flex items-center justify-center gap-2">
             <span className="inline-block min-w-[6ch] text-blue-100">{displayText}</span>
             <span className="blinking-cursor"> | </span>
             <span id="name" className="ml-2">{t('welcome')}</span>

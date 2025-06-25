@@ -29,7 +29,7 @@ export default function SwipingWords() {
     const nextIndex = (currentIndex + 1) % words.length;
 
     return (
-        <div className="swipingWords absolute top-1/2 left-0 w-full text-center -translate-y-4/5 z-0 pointer-events-none overflow-hidden h-[20vw]">
+        <div className="swipingWords absolute top-1/2 left-0 w-full text-center -translate-y-5/5 z-0 pointer-events-none overflow-hidden h-[20vw]">
             {/* current word (sliding out left) */}
             <p
                 className={`font-bold text-[12vw] italic text-[#3c84ff] opacity-20 transition-transform duration-500 absolute w-full
