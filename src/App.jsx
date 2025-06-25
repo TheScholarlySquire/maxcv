@@ -3,6 +3,7 @@ import './App.scss';
 import { useTranslation } from 'react-i18next';
 
 import GreetingTypewriter from './components/GreetingTypewriter';
+import SwipingWords from './components/SwipingWords';
 
 function App() {
     const { t, i18n } = useTranslation('translation');
@@ -14,8 +15,9 @@ function App() {
         <>
             <nav>
                 <div id="greeting-container" className="text-center p-8">
+                    <SwipingWords />
                     <GreetingTypewriter />
-                    <p className="mt-4">{t('description')}</p>
+                    <p className="mt-30">{t('description')}</p>
                     <p className="mt-4">{t('disclaimer')}</p>
 
                     <div id="nav-btns">

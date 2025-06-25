@@ -44,6 +44,12 @@
             opacity: 0;
         }
     }
+    .swipingWords {
+        p {
+            transform: skew(-5deg, -5deg);
+            text-transform: lowercase;
+        }
+    }
 }
 
 #main-container {
