@@ -1,4 +1,7 @@
 {
-  "welcome": "Bienvenue sur mon site !",
-  "description": "Je suis développeur front-end passionné par le code propre et la conception axée sur l’utilisateur."
+  "welcome": "Bonjour, je suis Max !",
+  "description": "Je suis développeur front-end passionné par le code propre et la conception axée sur l’utilisateur.",
+  "download": "Télechargez mon CV",
+  "contact": "Contactez moi",
+  "experienceTitle": "Experience"
 }

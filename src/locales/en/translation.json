@@ -1,4 +1,191 @@
 {
-  "welcome": "Welcome to my site!",
-  "description": "I'm a front-end developer passionate about clean code and user-focused design."
+    "welcome": "I'm Max!",
+    "description": "A front-end developer passionate about clean code and user-focused design.",
+    "disclaimer": "This site is still a work in progress, and so is the translation; come back every now and again to check out the progress!",
+    "download": "Download CV",
+    "contact": "Contact me",
+    "projectsTitle": "Projects",
+    "projectsRepo": "Learn more",
+    "experienceTitle": "Experience",
+    "educationTitle": "Education and Certifications",
+    "skills": [
+            {
+                "type": "tech",
+                "name": "HTML5",
+                "img": "../../public/HTML5_Logo.svg",
+                "alt": "HTML5 logo"
+            },
+            {
+                "type": "tech",
+                "name": "CSS",
+                "img": "../../public/CSS_Logo.svg",
+                "alt": "CSS logo"
+            },
+            {
+                "type": "tech",
+                "name": "SASS",
+                "img": "../../public/SASS_Logo.svg",
+                "alt": "SASS logo"
+            },
+            {
+                "type": "tech",
+                "name": "JavaScript",
+                "img": "../../public/JS_Logo.svg",
+                "alt": "JavaScript logo"
+            },
+            {
+                "type": "tech",
+                "name": "jQuery",
+                "img": "../../public/jQuery_Logo.svg",
+                "alt": "jQuery logo"
+            },
+            {
+                "type": "tech",
+                "name": "Bootstrap",
+                "img": "../../public/Bootstrap_Logo.svg",
+                "alt": "Bootstrap logo"
+            },
+            {
+                "type": "tech",
+                "name": "React",
+                "img": "../../public/react.svg",
+                "alt": "React logo"
+            },
+            {
+                "type": "tech",
+                "name": "TailwindCSS",
+                "img": "../../public/TailwindCSS_Logo.svg",
+                "alt": "TailwindCSS logo"
+            },
+            {
+                "type": "tech",
+                "name": "SQL",
+                "img": "../../public/sql.svg",
+                "alt": "SQL logo"
+            },
+            {
+                "type": "tool",
+                "name": "Git and GitHub",
+                "img": "../../public/github_Logo.svg",
+                "alt": "GitHub logo"
+            },
+            {
+                "type": "tool",
+                "name": "Vite",
+                "img": "../../public/vite.svg",
+                "alt": "Vite logo"
+            },
+            {
+                "type": "tech",
+                "name": "WCAG/WET",
+                "img": "../../public/W3C_Logo.svg",
+                "alt": "W3C logo"
+            },
+            {
+                "type": "tech",
+                "name": "PowerShell",
+                "img": "../../public/PowerShell_Logo.svg",
+                "alt": "Powershell logo"
+            },
+            {
+                "type": "design",
+                "name": "Adobe XD",
+                "img": "../../public/XD_Logo.svg",
+                "alt": "Adobe XD logo"
+            },
+            {
+                "type": "design",
+                "name": "Adobe Photoshop",
+                "img": "../../public/Photoshop_Logo.svg",
+                "alt": "Adobe Photoshop logo"
+            },
+            {
+                "type": "design",
+                "name": "Adobe Illustrator",
+                "img": "../../public/Illustrator_Logo.svg",
+                "alt": "Adobe Illustrator logo"
+            },
+            {
+                "type": "design",
+                "name": "Adobe InDesign",
+                "img": "../../public/Indesign_Logo.svg",
+                "alt": "Adobe InDesign logo"
+            },
+            {
+                "type": "design",
+                "name": "Adobe Lightroom",
+                "img": "../../public/Lightroom_Logo.svg",
+                "alt": "Adobe Lightroom logo"
+            },
+            {
+                "type": "design",
+                "name": "Adobe Figma",
+                "img": "../../public/Figma_Logo.svg",
+                "alt": "Adobe Figma logo"
+            }
+    ],
+    "projects": [
+        {
+            "title": "AEMMA Ottawa website",
+            "url": "aemma-ottawa.org",
+            "desc": "A bilingual, responsive website for my historical martial arts group. Built with React + Vite and styled using Tailwind CSS. Includes multilingual JSON-based content (React i18Next), an event system, dynamic modals, and responsive layouts."
+        },
+        {
+            "title": "Friendship Bracelet Generator",
+            "url": "https://thescholarlysquire.github.io/friendship-bracelet-generator/",
+            "desc": "An interactive app allowing users to customize virtual friendship bracelets with adjustable bead colours, shapes, curved strings, fonts, and more. Developed using React, Vite, and the Canvas API, using client-side processing."
+        },
+        {
+            "title": "Max and Ray wedding site",
+            "url": "https://thescholarlysquire.github.io/rmWedding2023_v2.io/",
+            "desc": "A simple site built with HTML and JS and styled with SASS. Passes user input data to a custom google sheet document for wedding RSVPs, add-to-calendar button, and custom visual effects."
+        }
+    ],
+    "experience": [
+        {
+            "employer": "Government of Canada - Courts Administration Service",
+            "position": "Web and Multimedia Coordinator - AS-02",
+            "dates": {
+                "start": "Feb 2021",
+                "end": "current"
+                },
+            "desc": "The Courts Administration Service supports the Federal Courts by providing registry, judicial, and corporate services, ensuring access to justice for Canadians through efficient handling of disputes and legal matters."
+        },
+        {
+            "employer": "Government of Canada - Immigration, Refugees and Citizenship Canada",
+            "position": "ATIP CLerk - CR-04",
+            "dates": {
+                "start": "Sept 2020",
+                "end": "Feb 2021"
+                },
+            "desc": "Supporting immigration programs, delivering citizenship services, protecting refugees, and facilitating the issuance of Canadian travel documents."
+        },
+        {
+            "employer": "Portia International",
+            "position": "QA Analyst",
+            "dates": {
+                "start": "Oct 2018",
+                "end": "Sept 2020"
+                },
+            "desc": "Portia provides cloud-based software for Behavior Analysts, ABA Clinics, and School Districts, enabling 24/7 data access to improve efficiency, outcomes, and global accessibility."
+        },
+        {
+            "employer": "Ottawa Regional Cancer Foundation",
+            "position": "Gift Processing Administrator",
+            "dates": {
+                "start": "Dec 2017",
+                "end": "Oct 2018"
+                },
+            "desc": "A non-profit organization that funds research to provide evidence-based programs that support individuals affected by cancer, including caregivers and families, while prioritizing lived experiences and community needs."
+        },
+        {
+            "employer": "Hilti",
+            "position": "Inside Sales Specialist & Customer Service Rep",
+            "dates": {
+                "start": "Aug 2016",
+                "end": "Oct 2017"
+                },
+            "desc": "A family-owned tool manufacturer with a solutions-oriented and consultative selling approach. They stand as a premier partner for enhancing productivity, sustainability, and health and safety to the various professional trades in the industry, making construction better."
+        }
+    ]
 }
