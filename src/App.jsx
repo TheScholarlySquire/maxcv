@@ -110,9 +110,10 @@ function App() {
 
             {/* Main page content */}
             <article id="main-container">
-                <section id="technical-skills">
+                <section id="technical-skills" className="flex flex-col md:flex-row gap-2">
                     {/*MAKE THESE DIVS INTO COMPONENTS, AND ITERATE THROUGH THE TYPES OF SKILLS TO STREAMLINE THIS NEXT SECTION*/}
                     <div id="tech" className="skills-section">
+                        <h2 className="text-2xl text-center font-semibold w-full">{t('techTitle')}</h2>
                         {skills
                             .filter(skill => skill.type === 'tech')
                             .map((skill, index) => (
@@ -129,8 +130,26 @@ function App() {
                             ))}
                     </div>
                     <div id="tools" className="skills-section">
+                        <h2 className="text-2xl text-center font-semibold w-full">{t('toolTitle')}</h2>
                         {skills
                             .filter(skill => skill.type === 'tool')
+                            .map((skill, index) => (
+                                <div
+                                    className="tools-item"
+                                    id={`skill-${index}`}
+                                    key={`skill-${index}`}
+                                >
+                                    {skill.img && (
+                                        <img style={{width:"3rem"}} src={skill.img} alt={skill.alt} />
+                                    )}
+                                    <h3 className="font-semibold">{skill.name}</h3>
+                                </div>
+                            ))}
+                    </div>
+                    <div id="design" className="skills-section">
+                        <h2 className="text-2xl text-center font-semibold w-full">{t('designTitle')}</h2>
+                        {skills
+                            .filter(skill => skill.type === 'design')
                             .map((skill, index) => (
                                 <div
                                     className="tools-item"
@@ -155,12 +174,12 @@ function App() {
                             key={`project-${index}`}
                             className="project-item p-4 sm:w-full text-left"
                         >
-                            <h3 className="text-xl font-semibold text-blue-600 hover:text-blue-400 transition hover:cursor-pointer">
-                                {project.title}
-                                <span>
-                                    <a href={project.url}>{t('projectsRepo')}</a>
-                                </span>
-                            </h3>
+                            <span>
+                                <a href={project.url}><h3 className="text-xl font-semibold text-blue-600 hover:text-blue-400 transition hover:cursor-pointer">
+                                    {project.title}
+                                </h3></a>
+                                <a className="repo-link" href={project.repo}>{t('projectsRepo')}</a>
+                            </span>
                             <p className="mt-2">{project.desc}</p>
                         </div>
                     ))}

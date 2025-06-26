@@ -4,6 +4,9 @@
     "disclaimer": "This site is still a work in progress; come back every now and again to check out the progress!",
     "download": "Download CV",
     "contact": "Contact me",
+    "techTitle": "Tech",
+    "toolTitle": "Tools",
+    "designTitle": "Design",
     "projectsTitle": "Projects",
     "projectsRepo": "Learn more",
     "experienceTitle": "Experience",
@@ -85,7 +88,7 @@
             "alt": "Vite logo"
         },
         {
-            "type": "tech",
+            "type": "tool",
             "name": "WCAG/WET",
             "img": "./W3C_Logo.svg",
             "alt": "W3C logo"
@@ -128,25 +131,28 @@
         },
         {
             "type": "design",
-            "name": "Adobe Figma",
+            "name": "Figma",
             "img": "./Figma_Logo.svg",
-            "alt": "Adobe Figma logo"
+            "alt": "Figma logo"
         }
     ],
     "projects": [
         {
             "title": "AEMMA Ottawa website",
-            "url": "aemma-ottawa.org",
+            "url": "http://aemma-ottawa.org",
+            "repo": "https://github.com/TheScholarlySquire/aemma-ottawa",
             "desc": "A bilingual, responsive website for my historical martial arts group. Built with React + Vite and styled using Tailwind CSS. Includes multilingual JSON-based content (React i18Next), an event system, dynamic modals, and responsive layouts."
         },
         {
             "title": "Friendship Bracelet Generator",
             "url": "https://thescholarlysquire.github.io/friendship-bracelet-generator/",
+            "repo": "https://github.com/TheScholarlySquire/friendship-bracelet-generator",
             "desc": "An interactive app allowing users to customize virtual friendship bracelets with adjustable bead colours, shapes, curved strings, fonts, and more. Developed using React, Vite, and the Canvas API, using client-side processing."
         },
         {
             "title": "Max and Ray wedding site",
             "url": "https://thescholarlysquire.github.io/rmWedding2023_v2.io/",
+            "repo": "https://github.com/TheScholarlySquire/rmWedding2023_v2.io",
             "desc": "A simple site built with HTML and JS and styled with SASS. Passes user input data to a custom google sheet document for wedding RSVPs, add-to-calendar button, and custom visual effects."
         }
     ],

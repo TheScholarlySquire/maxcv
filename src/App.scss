@@ -56,10 +56,15 @@
         color: #fff;
         font-size: 3rem;
     }
-    #tech, #tools {
+    #technical-skills {
+        margin: 0 1rem;
+    }
+    #tech, #tools, #design {
         display: flex;
         justify-content: center;
-        margin: 0 8rem;
+        border: 1px solid #18252d;
+        border-radius: 10px;
+        background-color: #11191f;
     }
     .skills-section {
         display: flex;
@@ -102,18 +107,21 @@
             border-top: 1px solid #fff;
             border-bottom: 1px solid #fff;
 
-            h3 {
+            span {
                 display: flex;
                 justify-content: space-between;
-            }
-            h3 > span {
-                font-size: 13px;
-                text-transform: uppercase;
-                color: #fff;
 
-                a {
+                h3 {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .repo-link {
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    color: #fff;
                     font-weight: 500;
                     border-bottom: 5px solid #3c84ff;
+                    transform: 0.15s ease-in-out;
                 }
             }
         }
