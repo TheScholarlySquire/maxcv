@@ -1,13 +1,9 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function SwipingWords() {
-    const words = [
-        'a developer',
-        'a medievalist',
-        'a calligrapher',
-        'a car enthusiast',
-        'a bit of a weirdo',
-    ];
+    const { t, i18n } = useTranslation('translation');
+    const words = t('words', { returnObjects: true });
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);

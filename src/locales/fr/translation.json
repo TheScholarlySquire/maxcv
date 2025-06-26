@@ -1,7 +1,218 @@
 {
-  "welcome": "Bonjour, je suis Max !",
-  "description": "Je suis développeur front-end passionné par le code propre et la conception axée sur l’utilisateur.",
-  "download": "Télechargez mon CV",
-  "contact": "Contactez moi",
-  "experienceTitle": "Experience"
+    "welcome": "Je suis Max !",
+    "description": "Un développeur front-end passionné par le code propre et la conception axée sur l'utilisateur.",
+    "disclaimer": "Ce site est encore en cours de construction. Revenez de temps en temps pour voir les nouveautés !",
+    "download": "Télécharger mon CV",
+    "contact": "Me contacter",
+    "projectsTitle": "Projets",
+    "projectsRepo": "En savoir plus",
+    "experienceTitle": "Expérience",
+    "currentJob": "Présent",
+    "educationTitle": "Éducation et certifications",
+    "words": [
+        "un développeur",
+        "un escrimeur",
+        "un médiéviste",
+        "un calligraphe",
+        "passionné d'auto",
+        "un peu bizarre"
+    ],
+    "skills": [
+        {
+            "type": "tech",
+            "name": "HTML5",
+            "img": "./HTML5_Logo.svg",
+            "alt": "HTML5 logo"
+        },
+        {
+            "type": "tech",
+            "name": "CSS",
+            "img": "./CSS_Logo.svg",
+            "alt": "CSS logo"
+        },
+        {
+            "type": "tech",
+            "name": "SASS",
+            "img": "./SASS_Logo.svg",
+            "alt": "SASS logo"
+        },
+        {
+            "type": "tech",
+            "name": "JavaScript",
+            "img": "./JS_Logo.svg",
+            "alt": "JavaScript logo"
+        },
+        {
+            "type": "tech",
+            "name": "jQuery",
+            "img": "./jQuery_Logo_white.svg",
+            "alt": "jQuery logo"
+        },
+        {
+            "type": "tech",
+            "name": "Bootstrap",
+            "img": "./Bootstrap_Logo.svg",
+            "alt": "Bootstrap logo"
+        },
+        {
+            "type": "tech",
+            "name": "React",
+            "img": "./react.svg",
+            "alt": "React logo"
+        },
+        {
+            "type": "tech",
+            "name": "TailwindCSS",
+            "img": "./TailwindCSS_Logo.svg",
+            "alt": "TailwindCSS logo"
+        },
+        {
+            "type": "tech",
+            "name": "SQL",
+            "img": "./sql_white.svg",
+            "alt": "SQL logo"
+        },
+        {
+            "type": "tool",
+            "name": "Git et GitHub",
+            "img": "./github_Logo_white.svg",
+            "alt": "GitHub logo"
+        },
+        {
+            "type": "tool",
+            "name": "Vite",
+            "img": "./vite.svg",
+            "alt": "Vite logo"
+        },
+        {
+            "type": "tech",
+            "name": "WCAG/WET",
+            "img": "./W3C_Logo.svg",
+            "alt": "W3C logo"
+        },
+        {
+            "type": "tech",
+            "name": "PowerShell",
+            "img": "./PowerShell_Logo.svg",
+            "alt": "Powershell logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe XD",
+            "img": "./XD_Logo.svg",
+            "alt": "Adobe XD logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe Photoshop",
+            "img": "./Photoshop_Logo.svg",
+            "alt": "Adobe Photoshop logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe Illustrator",
+            "img": "./Illustrator_Logo.svg",
+            "alt": "Adobe Illustrator logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe InDesign",
+            "img": "./Indesign_Logo.svg",
+            "alt": "Adobe InDesign logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe Lightroom",
+            "img": "./Lightroom_Logo.svg",
+            "alt": "Adobe Lightroom logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe Figma",
+            "img": "./Figma_Logo.svg",
+            "alt": "Adobe Figma logo"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Site web AAMME Ottawa",
+            "url": "aemma-ottawa.org",
+            "desc": "Un site bilingue et réactif pour mon groupe d’arts martiaux historiques. Construit avec React + Vite et stylisé avec Tailwind CSS. Contenu multilingue basé sur JSON (React i18Next), système d’événements, modales dynamiques et mises en page adaptatives."
+        },
+        {
+            "title": "Générateur de bracelets d’amitié",
+            "url": "https://thescholarlysquire.github.io/friendship-bracelet-generator/",
+            "desc": "Une application interactive permettant aux utilisateurs de personnaliser des bracelets d’amitié virtuels avec des couleurs de perles, formes, courbures, polices et plus. Développée avec React, Vite et l’API Canvas en traitement côté client."
+        },
+        {
+            "title": "Site de mariage Max et Ray",
+            "url": "https://thescholarlysquire.github.io/rmWedding2023_v2.io/",
+            "desc": "Un site simple construit avec HTML et JS, stylisé avec SASS. Transmet les données saisies à une feuille Google personnalisée pour les RSVPs de mariage, bouton d’ajout au calendrier et effets visuels personnalisés."
+        }
+    ],
+    "experience": [
+        {
+            "employer": "Gouvernement du Canada – Service administratif des tribunaux judiciaires",
+            "position": "Coordonnateur Web et multimédia – AS-02",
+            "dates": {
+                "start": "2021-02",
+                "end": "current"
+            },
+            "desc": [
+                "Conception et développement d’interfaces Web accessibles et réactives en HTML, CSS, JS et PHP, conformes aux normes WCAG et aux cadres gouvernementaux WET.",
+                "Refonte et optimisation de composants intranet existants pour améliorer la performance et la maintenabilité, offrant une expérience utilisateur plus fluide.",
+                "Création de maquettes et mise en œuvre de refontes complètes en collaboration avec les parties prenantes internes, assurant une cohérence du contenu sur toutes les plateformes."
+            ]
+        },
+        {
+            "employer": "Gouvernement du Canada – Immigration, Réfugiés et Citoyenneté Canada",
+            "position": "Commis AIPRP – CR-04 (contrat)",
+            "dates": {
+                "start": "2020-09",
+                "end": "2021-02"
+            },
+            "desc": [
+                "Utilisation de systèmes internes pour gérer efficacement des documents numériques sensibles tout en assurant l’intégrité des données.",
+                "Souci du détail dans les flux de travail numériques et le traitement de l’information, compétences transférables à la gestion de l’état et des données en front-end."
+            ]
+        },
+        {
+            "employer": "Portia International",
+            "position": "Analyste AQ",
+            "dates": {
+                "start": "2018-10",
+                "end": "2020-09"
+            },
+            "desc": [
+                "Tests manuels d’une application SaaS, en mettant l’accent sur la qualité de l’interface et de l’expérience utilisateur sur différents appareils.",
+                "Collaboration étroite avec les développeurs et l’équipe de support pour identifier les bogues et proposer des améliorations.",
+                "Simulation d’environnements de production avec MAMP pour tester l’intégration front-end et back-end."
+            ]
+        },
+        {
+            "employer": "Fondation du cancer de la région d’Ottawa",
+            "position": "Administrateur du traitement des dons",
+            "dates": {
+                "start": "2017-12",
+                "end": "2018-10"
+            },
+            "desc": [
+                "Développement de requêtes SQL et automatisation des processus de données pour améliorer les rapports et les outils de communication avec les donateurs.",
+                "Création d’outils internes et de modèles de rapports Excel avec macros pour répondre à des besoins concrets des utilisateurs."
+            ]
+        },
+        {
+            "employer": "Hilti",
+            "position": "Spécialiste des ventes internes et représentant du service à la clientèle",
+            "dates": {
+                "start": "2016-08",
+                "end": "2017-10"
+            },
+            "desc": [
+                "Intégration des flux de données et des clients entre une plateforme e-commerce propriétaire et SAP.",
+                "Promotion interne obtenue grâce à la performance et à la collaboration — expérience transférable à des équipes logicielles agiles.",
+                "Utilisation régulière de systèmes d’information complexes, fondement d’une communication claire et d’une résolution efficace des problèmes."
+            ]
+        }
+    ]
 }

@@ -1,128 +1,137 @@
 {
     "welcome": "I'm Max!",
     "description": "A front-end developer passionate about clean code and user-focused design.",
-    "disclaimer": "This site is still a work in progress, and so is the translation; come back every now and again to check out the progress!",
+    "disclaimer": "This site is still a work in progress; come back every now and again to check out the progress!",
     "download": "Download CV",
     "contact": "Contact me",
     "projectsTitle": "Projects",
     "projectsRepo": "Learn more",
     "experienceTitle": "Experience",
+    "currentJob": "Present",
     "educationTitle": "Education and Certifications",
+    "words": [
+        "a developer",
+        "HEMA practitioner",
+        "a medievalist",
+        "a calligrapher",
+        "a car enthusiast",
+        "a bit of a weirdo"
+    ],
     "skills": [
-            {
-                "type": "tech",
-                "name": "HTML5",
-                "img": "./HTML5_Logo.svg",
-                "alt": "HTML5 logo"
-            },
-            {
-                "type": "tech",
-                "name": "CSS",
-                "img": "./CSS_Logo.svg",
-                "alt": "CSS logo"
-            },
-            {
-                "type": "tech",
-                "name": "SASS",
-                "img": "./SASS_Logo.svg",
-                "alt": "SASS logo"
-            },
-            {
-                "type": "tech",
-                "name": "JavaScript",
-                "img": "./JS_Logo.svg",
-                "alt": "JavaScript logo"
-            },
-            {
-                "type": "tech",
-                "name": "jQuery",
-                "img": "./jQuery_Logo.svg",
-                "alt": "jQuery logo"
-            },
-            {
-                "type": "tech",
-                "name": "Bootstrap",
-                "img": "./Bootstrap_Logo.svg",
-                "alt": "Bootstrap logo"
-            },
-            {
-                "type": "tech",
-                "name": "React",
-                "img": "./react.svg",
-                "alt": "React logo"
-            },
-            {
-                "type": "tech",
-                "name": "TailwindCSS",
-                "img": "./TailwindCSS_Logo.svg",
-                "alt": "TailwindCSS logo"
-            },
-            {
-                "type": "tech",
-                "name": "SQL",
-                "img": "./sql.svg",
-                "alt": "SQL logo"
-            },
-            {
-                "type": "tool",
-                "name": "Git and GitHub",
-                "img": "./github_Logo.svg",
-                "alt": "GitHub logo"
-            },
-            {
-                "type": "tool",
-                "name": "Vite",
-                "img": "./vite.svg",
-                "alt": "Vite logo"
-            },
-            {
-                "type": "tech",
-                "name": "WCAG/WET",
-                "img": "./W3C_Logo.svg",
-                "alt": "W3C logo"
-            },
-            {
-                "type": "tech",
-                "name": "PowerShell",
-                "img": "./PowerShell_Logo.svg",
-                "alt": "Powershell logo"
-            },
-            {
-                "type": "design",
-                "name": "Adobe XD",
-                "img": "./XD_Logo.svg",
-                "alt": "Adobe XD logo"
-            },
-            {
-                "type": "design",
-                "name": "Adobe Photoshop",
-                "img": "./Photoshop_Logo.svg",
-                "alt": "Adobe Photoshop logo"
-            },
-            {
-                "type": "design",
-                "name": "Adobe Illustrator",
-                "img": "./Illustrator_Logo.svg",
-                "alt": "Adobe Illustrator logo"
-            },
-            {
-                "type": "design",
-                "name": "Adobe InDesign",
-                "img": "./Indesign_Logo.svg",
-                "alt": "Adobe InDesign logo"
-            },
-            {
-                "type": "design",
-                "name": "Adobe Lightroom",
-                "img": "./Lightroom_Logo.svg",
-                "alt": "Adobe Lightroom logo"
-            },
-            {
-                "type": "design",
-                "name": "Adobe Figma",
-                "img": "./Figma_Logo.svg",
-                "alt": "Adobe Figma logo"
-            }
+        {
+            "type": "tech",
+            "name": "HTML5",
+            "img": "./HTML5_Logo.svg",
+            "alt": "HTML5 logo"
+        },
+        {
+            "type": "tech",
+            "name": "CSS",
+            "img": "./CSS_Logo.svg",
+            "alt": "CSS logo"
+        },
+        {
+            "type": "tech",
+            "name": "SASS",
+            "img": "./SASS_Logo.svg",
+            "alt": "SASS logo"
+        },
+        {
+            "type": "tech",
+            "name": "JavaScript",
+            "img": "./JS_Logo.svg",
+            "alt": "JavaScript logo"
+        },
+        {
+            "type": "tech",
+            "name": "jQuery",
+            "img": "./jQuery_Logo_white.svg",
+            "alt": "jQuery logo"
+        },
+        {
+            "type": "tech",
+            "name": "Bootstrap",
+            "img": "./Bootstrap_Logo.svg",
+            "alt": "Bootstrap logo"
+        },
+        {
+            "type": "tech",
+            "name": "React",
+            "img": "./react.svg",
+            "alt": "React logo"
+        },
+        {
+            "type": "tech",
+            "name": "TailwindCSS",
+            "img": "./TailwindCSS_Logo.svg",
+            "alt": "TailwindCSS logo"
+        },
+        {
+            "type": "tech",
+            "name": "SQL",
+            "img": "./sql_white.svg",
+            "alt": "SQL logo"
+        },
+        {
+            "type": "tool",
+            "name": "Git and GitHub",
+            "img": "./github_Logo_white.svg",
+            "alt": "GitHub logo"
+        },
+        {
+            "type": "tool",
+            "name": "Vite",
+            "img": "./vite.svg",
+            "alt": "Vite logo"
+        },
+        {
+            "type": "tech",
+            "name": "WCAG/WET",
+            "img": "./W3C_Logo.svg",
+            "alt": "W3C logo"
+        },
+        {
+            "type": "tech",
+            "name": "PowerShell",
+            "img": "./PowerShell_Logo.svg",
+            "alt": "Powershell logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe XD",
+            "img": "./XD_Logo.svg",
+            "alt": "Adobe XD logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe Photoshop",
+            "img": "./Photoshop_Logo.svg",
+            "alt": "Adobe Photoshop logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe Illustrator",
+            "img": "./Illustrator_Logo.svg",
+            "alt": "Adobe Illustrator logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe InDesign",
+            "img": "./Indesign_Logo.svg",
+            "alt": "Adobe InDesign logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe Lightroom",
+            "img": "./Lightroom_Logo.svg",
+            "alt": "Adobe Lightroom logo"
+        },
+        {
+            "type": "design",
+            "name": "Adobe Figma",
+            "img": "./Figma_Logo.svg",
+            "alt": "Adobe Figma logo"
+        }
     ],
     "projects": [
         {
@@ -146,46 +155,64 @@
             "employer": "Government of Canada - Courts Administration Service",
             "position": "Web and Multimedia Coordinator - AS-02",
             "dates": {
-                "start": "Feb 2021",
+                "start": "2021-02",
                 "end": "current"
                 },
-            "desc": "The Courts Administration Service supports the Federal Courts by providing registry, judicial, and corporate services, ensuring access to justice for Canadians through efficient handling of disputes and legal matters."
+            "desc": [
+                "Led the design and development of responsive, accessible web interfaces using HTML, CSS, JS, and PHP, in compliance with WCAG standards and WET government frameworks.",
+                "Refactored and optimized legacy intranet components to improve load performance and maintainability, resulting in faster processing and a more streamlined user experience.",
+                "Created wireframes and implemented full-page redesigns in collaboration with internal stakeholders, ensuring consistency across content and platforms."
+            ]
         },
         {
             "employer": "Government of Canada - Immigration, Refugees and Citizenship Canada",
-            "position": "ATIP CLerk - CR-04",
+            "position": "ATIP CLerk - CR-04 (contract)",
             "dates": {
-                "start": "Sept 2020",
-                "end": "Feb 2021"
+                "start": "2020-09",
+                "end": "2021-02"
                 },
-            "desc": "Supporting immigration programs, delivering citizenship services, protecting refugees, and facilitating the issuance of Canadian travel documents."
+            "desc": [
+                "Used internal systems to manage sensitive digital documentation efficiently and accurately, ensuring data integrity and consistent record handling.",
+                "Demonstrated meticulous attention to digital workflows and information processing, contributing to reliable, high-volume data management—skills transferable to frontend state/data handling."
+            ]
         },
         {
             "employer": "Portia International",
             "position": "QA Analyst",
             "dates": {
-                "start": "Oct 2018",
-                "end": "Sept 2020"
+                "start": "2018-10",
+                "end": "2020-09"
                 },
-            "desc": "Portia provides cloud-based software for Behavior Analysts, ABA Clinics, and School Districts, enabling 24/7 data access to improve efficiency, outcomes, and global accessibility."
+            "desc": [
+                "Conducted manual testing of a SaaS application, focusing on UI/UX quality across devices and user states using HTML, CSS, JS, and PHP environments.",
+                "Collaborated closely with developers and support teams to identify bugs, improve usability, and advocate for enhancements to frontend logic and design.",
+                "Simulated production environments using the MAMP stack to validate frontend and backend integration during testing phases."
+            ]
         },
         {
             "employer": "Ottawa Regional Cancer Foundation",
             "position": "Gift Processing Administrator",
             "dates": {
-                "start": "Dec 2017",
-                "end": "Oct 2018"
+                "start": "2017-12",
+                "end": "2018-10"
                 },
-            "desc": "A non-profit organization that funds research to provide evidence-based programs that support individuals affected by cancer, including caregivers and families, while prioritizing lived experiences and community needs."
+            "desc": [
+                "Developed SQL queries and automated data processes to enhance reporting and donor interaction tools—experience that informs scalable data handling in frontend dashboards.",
+                "Created internal tools and reporting templates in Excel with macros, showcasing an ability to translate real-world user needs into technical solutions."
+            ]
         },
         {
             "employer": "Hilti",
             "position": "Inside Sales Specialist & Customer Service Rep",
             "dates": {
-                "start": "Aug 2016",
-                "end": "Oct 2017"
+                "start": "2016-08",
+                "end": "2017-10"
                 },
-            "desc": "A family-owned tool manufacturer with a solutions-oriented and consultative selling approach. They stand as a premier partner for enhancing productivity, sustainability, and health and safety to the various professional trades in the industry, making construction better."
+            "desc": [
+                "Integrated data and customer flows between a proprietary e-commerce platform and SAP, helping bridge user-facing systems with backend infrastructure.",
+                "Promoted internally for performance and collaboration—experience that translates to agile, cross-functional software teams.",
+                "Regularly worked with complex information systems, building a foundation for clear communication and problem-solving in technical environments."
+            ]
         }
     ]
 }

@@ -5,6 +5,12 @@ import { useTranslation } from 'react-i18next';
 import GreetingTypewriter from './components/GreetingTypewriter';
 import SwipingWords from './components/SwipingWords';
 
+function formatDate(dateStr) {
+    const [year, month] = dateStr.split('-');
+    const date = new Date(`${dateStr}-01`);
+    return date.toLocaleString('en-US', { month: 'short', year: 'numeric' });
+}
+
 function App() {
     const { t, i18n } = useTranslation('translation');
     const skills = t('skills', { returnObjects: true });
@@ -149,7 +155,7 @@ function App() {
                             key={`project-${index}`}
                             className="project-item p-4 sm:w-full text-left"
                         >
-                            <h3 className="text-xl font-semibold text-blue-600 hover:cursor-pointer">
+                            <h3 className="text-xl font-semibold text-blue-600 hover:text-blue-400 transition hover:cursor-pointer">
                                 {project.title}
                                 <span>
                                     <a href={project.url}>{t('projectsRepo')}</a>
@@ -173,8 +179,14 @@ function App() {
                         >
                             <h3 className="text-xl font-semibold">{job.employer}</h3>
                             <h4 className="text-md font-medium text-gray-200">{job.position}</h4>
-                            <p className="text-sm text-gray-400">{job.dates.start} – {job.dates.end}</p>
-                            <p className="mt-2">{job.desc}</p>
+                            <p className="text-sm text-gray-400">
+                                {formatDate(job.dates.start)} - {job.dates.end === 'current' ? t('currentJob') : formatDate(job.dates.end)}
+                            </p>
+                            <ul className="mt-2 list-disc list-inside space-y-1">
+                                {job.desc.map((item, i) => (
+                                    <li key={i}>{item}</li>
+                                ))}
+                            </ul>
                         </div>
                     ))}
                     </div>
