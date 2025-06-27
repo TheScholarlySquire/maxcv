@@ -100,37 +100,55 @@
             display: flex;
         }
         .project-item {
-            justify-self: flex-start;
-            width: 80%;
             margin: 1rem 0;
-            border-right: 1px solid #fff;
-            border-top: 1px solid #fff;
-            border-bottom: 1px solid #fff;
+            display: flex;
+            justify-content: space-between;
 
-            span {
+            .project-img {
+                aspect-ratio: auto;
+                width: 100%;
+                background-color: #1d4d71;
+                padding: 1rem;
+                border-radius: 0 10px 10px 0;
                 display: flex;
-                justify-content: space-between;
+                align-items: center;
 
-                h3 {
+                img {
+                    height: fit-content;
+                }
+            }
+
+            .project-details {
+                width: 45%;
+                span {
                     display: flex;
                     justify-content: space-between;
-                }
-                .repo-link {
-                    font-size: 13px;
-                    text-transform: uppercase;
-                    color: #fff;
-                    font-weight: 500;
-                    border-bottom: 5px solid #3c84ff;
-                    transform: 0.15s ease-in-out;
+
+                    h3 {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .repo-link {
+                        font-size: 13px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        font-weight: 500;
+                        border-bottom: 5px solid #3c84ff;
+                        transform: 0.15s ease-in-out;
+                    }
                 }
             }
         }
         .project-item:nth-of-type(even) {
-            justify-self: flex-end;
+            flex-direction: row-reverse;
             border-right: 0;
-            border-left: 1px solid #fff;
-            border-top: 1px solid #fff;
-            border-bottom: 1px solid #fff;
+            background-color: #11191f;
+            border-top: 1px solid #18252d;
+            border-bottom: 1px solid #18252d;
+
+            .project-img {
+                border-radius: 10px 0 0 10px;
+            }
         }
     }
 
@@ -150,5 +168,17 @@
                 border-radius: 8px;
             }
         }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .project-item,
+    #main-container #projects .project-item:nth-of-type(even) {
+        flex-direction: column;
+    }
+    #main-container #projects .project-item .project-details,
+    #main-container #projects .project-item:nth-of-type(even) .project-details {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
     }
 }

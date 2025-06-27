@@ -141,18 +141,21 @@
             "title": "AEMMA Ottawa website",
             "url": "http://aemma-ottawa.org",
             "repo": "https://github.com/TheScholarlySquire/aemma-ottawa",
+            "img": "./screenshot-aemma-ottawa.png",
             "desc": "A bilingual, responsive website for my historical martial arts group. Built with React + Vite and styled using Tailwind CSS. Includes multilingual JSON-based content (React i18Next), an event system, dynamic modals, and responsive layouts."
         },
         {
             "title": "Friendship Bracelet Generator",
             "url": "https://thescholarlysquire.github.io/friendship-bracelet-generator/",
             "repo": "https://github.com/TheScholarlySquire/friendship-bracelet-generator",
+            "img": "./screenshot-friendship-bracelet.png",
             "desc": "An interactive app allowing users to customize virtual friendship bracelets with adjustable bead colours, shapes, curved strings, fonts, and more. Developed using React, Vite, and the Canvas API, using client-side processing."
         },
         {
             "title": "Max and Ray wedding site",
             "url": "https://thescholarlysquire.github.io/rmWedding2023_v2.io/",
             "repo": "https://github.com/TheScholarlySquire/rmWedding2023_v2.io",
+            "img": "./screenshot-maxray.png",
             "desc": "A simple site built with HTML and JS and styled with SASS. Passes user input data to a custom google sheet document for wedding RSVPs, add-to-calendar button, and custom visual effects."
         }
     ],
