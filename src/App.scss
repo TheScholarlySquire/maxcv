@@ -59,7 +59,7 @@
     #technical-skills {
         margin: 0 1rem;
     }
-    #tech, #tools, #design {
+    #tech, #tool, #design {
         display: flex;
         justify-content: center;
         border: 1px solid #18252d;
@@ -72,7 +72,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
 
-        .tech-item, .tools-item {
+        .tech-item, .tool-item, .design-item {
             margin: 10px;
             padding: 10px;
             text-align: center;

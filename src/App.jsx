@@ -4,12 +4,9 @@ import { useTranslation } from 'react-i18next';
 
 import GreetingTypewriter from './components/GreetingTypewriter';
 import SwipingWords from './components/SwipingWords';
-
-function formatDate(dateStr) {
-    const [year, month] = dateStr.split('-');
-    const date = new Date(`${dateStr}-01`);
-    return date.toLocaleString('en-US', { month: 'short', year: 'numeric' });
-}
+import TechSkills from './components/TechSkills';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
 
 function App() {
     const { t, i18n } = useTranslation('translation');
@@ -103,7 +100,7 @@ function App() {
                 <div id="greeting-container">
                     <SwipingWords />
                     <GreetingTypewriter />
-                    <p className="mt-6">{t('description')}</p>
+                    <p className="mt-30 lg:mt-50">{t('description')}</p>
                     <p className="mt-4 text-sm text-gray-400">{t('disclaimer')}</p>
                 </div>
             </header>
@@ -111,109 +108,30 @@ function App() {
             {/* Main page content */}
             <article id="main-container">
                 <section id="technical-skills" className="flex flex-col md:flex-row gap-2">
-                    {/*MAKE THESE DIVS INTO COMPONENTS, AND ITERATE THROUGH THE TYPES OF SKILLS TO STREAMLINE THIS NEXT SECTION*/}
-                    <div id="tech" className="skills-section">
-                        <h2 className="text-2xl text-center font-semibold w-full">{t('techTitle')}</h2>
-                        {skills
-                            .filter(skill => skill.type === 'tech')
-                            .map((skill, index) => (
-                                <div
-                                    className="tech-item shadow-lg rounded-2xl"
-                                    id={`skill-${index}`}
-                                    key={`skill-${index}`}
-                                >
-                                    {skill.img && (
-                                        <img style={{width:"100px"}} src={skill.img} alt={skill.alt} />
-                                    )}
-                                    <h3 className="font-semibold">{skill.name}</h3>
-                                </div>
-                            ))}
-                    </div>
-                    <div id="tools" className="skills-section">
-                        <h2 className="text-2xl text-center font-semibold w-full">{t('toolTitle')}</h2>
-                        {skills
-                            .filter(skill => skill.type === 'tool')
-                            .map((skill, index) => (
-                                <div
-                                    className="tools-item"
-                                    id={`skill-${index}`}
-                                    key={`skill-${index}`}
-                                >
-                                    {skill.img && (
-                                        <img style={{width:"3rem"}} src={skill.img} alt={skill.alt} />
-                                    )}
-                                    <h3 className="font-semibold">{skill.name}</h3>
-                                </div>
-                            ))}
-                    </div>
-                    <div id="design" className="skills-section">
-                        <h2 className="text-2xl text-center font-semibold w-full">{t('designTitle')}</h2>
-                        {skills
-                            .filter(skill => skill.type === 'design')
-                            .map((skill, index) => (
-                                <div
-                                    className="tools-item"
-                                    id={`skill-${index}`}
-                                    key={`skill-${index}`}
-                                >
-                                    {skill.img && (
-                                        <img style={{width:"3rem"}} src={skill.img} alt={skill.alt} />
-                                    )}
-                                    <h3 className="font-semibold">{skill.name}</h3>
-                                </div>
-                            ))}
-                    </div>
+                    <TechSkills
+                        title={t('techTitle')}
+                        skills={skills}
+                        type="tech"
+                        imgWidth="100px"
+                    />
+                    <TechSkills
+                        title={t('toolTitle')}
+                        skills={skills}
+                        type="tool"
+                    />
+                    <TechSkills
+                        title={t('designTitle')}
+                        skills={skills}
+                        type="design"
+                    />
                 </section>
 
                 <section id="projects">
-                    <h2 className="text-2xl font-semibold">{t('projectsTitle')}</h2>
-                    <div>
-                    {projects.map((project, index) => (
-                        <div
-                            id={`project-${index}`}
-                            key={`project-${index}`}
-                            className="project-item p-4 sm:w-full text-left"
-                        >
-                            <div className="project-img">
-                                <img src={project.img} alt={project.title} />
-                            </div>
-                            <div className="project-details lg:px-10 sm:px-7">
-                                <span>
-                                    <a href={project.url}><h3 className="text-xl font-semibold text-blue-600 hover:text-blue-400 transition hover:cursor-pointer">
-                                        {project.title}
-                                    </h3></a>
-                                    <a className="repo-link" href={project.repo}>{t('projectsRepo')}</a>
-                                </span>
-                                <p className="mt-2">{project.desc}</p>
-                            </div>
-                        </div>
-                    ))}
-                    </div>
+                    <Projects projects={projects} />
                 </section>
 
                 <section id="experience">
-                    <h2 className="text-2xl font-semibold">{t('experienceTitle')}</h2>
-                    {/*MAKE THESE DIVS INTO COMPONENTS, AND MAP THE JOBS TO THIS SEPARATE COMPONENT TO STREAMLINE THIS NEXT SECTION*/}
-                    <div id="jobs">
-                    {jobs.map((job, index) => (
-                        <div
-                            id={`job-${index}`}
-                            key={`job-${index}`}
-                            className="jobs-item shadow-lg rounded-2xl p-4 sm:w-full text-left"
-                        >
-                            <h3 className="text-xl font-semibold">{job.employer}</h3>
-                            <h4 className="text-md font-medium text-gray-200">{job.position}</h4>
-                            <p className="text-sm text-gray-400">
-                                {formatDate(job.dates.start)} - {job.dates.end === 'current' ? t('currentJob') : formatDate(job.dates.end)}
-                            </p>
-                            <ul className="mt-2 list-disc list-inside space-y-1">
-                                {job.desc.map((item, i) => (
-                                    <li key={i}>{item}</li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))}
-                    </div>
+                    <Experience jobs={jobs} />
                 </section>
             </article>
         </div>
