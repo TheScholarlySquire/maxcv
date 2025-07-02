@@ -7,6 +7,7 @@ import SwipingWords from './components/SwipingWords';
 import TechSkills from './components/TechSkills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import ContactForm from './components/ContactForm';
 
 function App() {
     const { t, i18n } = useTranslation('translation');
@@ -40,7 +41,7 @@ function App() {
                 {/* Desktop buttons */}
                 <div className="hidden md:flex gap-4">
                     <button>{t('download')}</button>
-                    <button>{t('contact')}</button>
+                    <a href="#contact"><li>{t('contact')}</li></a>
                 </div>
 
                 {/* Mobile menu toggle */}
@@ -90,7 +91,7 @@ function App() {
                     </div>
                     <ul className="flex flex-col gap-4">
                         <li><button>{t('download')}</button></li>
-                        <li><button>{t('contact')}</button></li>
+                        <a href="#contact"><li>{t('contact')}</li></a>
                     </ul>
                 </div>
             </div>
@@ -132,6 +133,10 @@ function App() {
 
                 <section id="experience">
                     <Experience jobs={jobs} />
+                </section>
+
+                <section id="contact">
+                    <ContactForm />
                 </section>
             </article>
         </div>
